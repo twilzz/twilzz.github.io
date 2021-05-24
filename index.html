@@ -4,67 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./fonts/font.css">
     <title>Корневая страница
     </title>
 </head>
 <body>
     <div class="root">
-        <div class="card" style="width: 18rem;">
-            <img src="./img/wp.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Сайт - 1</h5>
-              <p class="card-text">Лендинг на тему курсов по WordPress</p>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Макет Figma</li>
-                <li class="list-group-item">HTML 5 + Css</li>
-              </ul>
-              <a href="#" class="btn btn-primary">Перейти в проект</a>
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="header_wrapper">
+                  <div class="header_name">Сладков Алексей<span> FrontEnd Web-разработчик</span></div>
+                  <div class="header_contacts"> 
+                    <div class="header_soc"><a href="tel:+79043340680"><span class="icon-phone-solid"></span></a></div>
+                    <div class="header_soc"><a href="mailto:twils@ya.ru"><span class="icon-envelope-open-text-solid"></span></a></div>
+                    <div class="header_soc"><a href="https://github.com/twilzz"><span class="icon-github-square-brands"></span></a></div>
+                  </div>
+              </div>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
-            <img src="./img/uber.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Сайт - 2</h5>
-              <p class="card-text">Лендинг на тему работы в Uber</p>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Макет Figma</li>
-                <li class="list-group-item">HTML 5 + Css</li>
-                <li class="list-group-item">Bootstrap Сетки</li>
-                <li class="list-group-item">SASS</li>
-                <li class="list-group-item">Адаптивность</li>
-              </ul>
-              <a href="#" class="btn btn-primary">Перейти в проект</a>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+<!-- КАРТОЧКА - 1 -->
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card_logo">
+                  <img src="./img/wp.png" alt="wp">
+                </div>
+                <div class="card_header">Проект 1</div>
+                <div class="card_subheader">Лендинг на тему обучения Wordpress-у</div>
+                <div class="card_descr">
+                  <ul>
+                    <li>По макету Figma</li>
+                    <li>HTML, CSS</li>
+                  </ul>
+                </div>
+                <div class="card_divider"></div>
+                <div class="card_buttons">
+                  <a href="" class="card_link btn btn-info">На сайт</a>
+                  <a href="" class="card_link btn btn-info">На Github</a>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="./img/calc.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Сайт - 3</h5>
-              <p class="card-text">Сайт-калькулятор для коммерческих предложений.</p>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">HTML 5 + Css</li>
-                <li class="list-group-item">JavaScript</li>
-                <li class="list-group-item">JSON Server</li>
-                <li class="list-group-item">html2pdf lib</li>
-              </ul>
-              <a href="#" class="btn btn-primary">Перейти в проект</a>
+<!-- КАРТОЧКА - 2 -->
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card_logo">
+                  <img src="./img/uber.png" alt="wp">
+                </div>
+                <div class="card_header">Проект 2</div>
+                <div class="card_subheader">Лендинг на тему работы в UBER</div>
+                <div class="card_descr">
+                  <ul>
+                    <li>По макету Figma</li>
+                    <li>HTML, CSS</li>
+                    <li>Сетка Bootstrap</li>
+                    <li>Sass-препроцессор</li>
+                    <li>Адаптивная верстка</li>
+                  </ul>
+                </div>
+                <div class="card_divider"></div>
+                <div class="card_buttons">
+                  <a href="" class="card_link btn btn-info">На сайт</a>
+                  <a href="" class="card_link btn btn-info">На Github</a>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Сайт - 4</h5>
-              <p class="card-text">Реакт-приложение по игре</p>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">HTML 5 + Css</li>
-                <li class="list-group-item">JavaScript</li>
-                <li class="list-group-item">JSON Server</li>
-                <li class="list-group-item">html2pdf lib</li>
-              </ul>
-              <a href="#" class="btn btn-primary">Перейти в проект</a>
+<!-- КАРТОЧКА - 3 -->
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card_logo">
+                  <img src="./img/calc.png" alt="wp">
+                </div>
+                <div class="card_header">Проект 3</div>
+                <div class="card_subheader">Сайт-калькулятор для расчета коммерческих предложений</div>
+                <div class="card_descr">
+                  <ul>
+                    <li>Свой макет и интерфейс</li>
+                    <li>HTML, CSS</li>
+                    <li>Нативный JavaScript</li>
+                    <li>Работа с JSON сервером</li>
+                    <li>Попытка реализации client-side печати в PDF</li>                       
+                  </ul>
+                </div>
+                <div class="card_divider"></div>
+                <div class="card_buttons">
+                  <a href="" class="card_link btn btn-info">На сайт</a>
+                  <a href="" class="card_link btn btn-info">На Github</a>
+                </div>
+              </div>
             </div>
-          </div>
+<!-- КАРТОЧКА - 4 -->
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card_logo">
+                  <img src="./img/Pokeball.png" alt="Pokemon">
+                </div>
+                <div class="card_header">Проект 4</div>
+                <div class="card_subheader">Сайт-игра по Pokemon. Проект JavaScript марафона</div>
+                <div class="card_descr">
+                  <ul>
+                    <li>HTML, CSS</li>
+                    <li>Нативный JavaScript</li>
+                    <li>Работа с серверным API</li>                     
+                  </ul>
+                </div>
+                <div class="card_divider"></div>
+                <div class="card_buttons">
+                  <a href="" class="card_link btn btn-info">На сайт</a>
+                  <a href="" class="card_link btn btn-info">На Github</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
     </div>
+</body>
 </html>
